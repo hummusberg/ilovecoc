@@ -17,3 +17,14 @@ vim.api.nvim_create_autocmd("TabNewEntered", {
         vim.cmd("Neotree left")
     end,
 })
+
+vim.g.coc_global_extensions = {
+    "coc-pairs",
+    "coc-lua",
+    "coc-html",
+    "coc-css",
+    "coc-list",
+    "coc-highlight",
+    "coc-yaml",
+    "coc-json"
+}
