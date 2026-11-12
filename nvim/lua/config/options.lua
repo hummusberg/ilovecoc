@@ -23,7 +23,6 @@ vim.g.coc_global_extensions = {
     "coc-lua",
     "coc-html",
     "coc-css",
-    "coc-list",
     "coc-highlight",
     "coc-yaml",
     "coc-json"
